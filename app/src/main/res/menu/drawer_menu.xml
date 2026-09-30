@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_all_notes" android:icon="@drawable/ic_notes" android:title="@string/all_notes" />
+        <item android:id="@+id/nav_favorites" android:icon="@drawable/ic_favorite_outline" android:title="@string/favorites" />
+        <item android:id="@+id/nav_sorted" android:icon="@drawable/ic_sort" android:title="@string/sorted_notes" />
+        <item android:id="@+id/nav_profile" android:icon="@drawable/ic_person" android:title="@string/profile" />
+    </group>
+    <item android:id="@+id/nav_logout" android:icon="@drawable/ic_logout" android:title="@string/logout" />
+</menu>
